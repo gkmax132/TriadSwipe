@@ -4,10 +4,9 @@ import select
 import time
 from evdev import UInput, ecodes as e
 
-# Устройства ввода
-TOUCHPAD_DEVICE = "/dev/input/event8"  # Ваш тачпад
+TOUCHPAD_DEVICE = "/dev/input/event8"  
 
-# Пороги для свайпов
+
 SWIPE_THRESHOLD_X = 80
 SWIPE_THRESHOLD_Y = 40
 DEAD_ZONE = 15
