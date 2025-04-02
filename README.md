@@ -1,4 +1,3 @@
-```markdown
 # TriadSwipe - Three-Finger Swipe Emulator for Touchpad
 
 This Python script is designed to process touchpad events in Linux using the `evdev` library. It tracks finger movements on the touchpad and emulates three-finger swipes (left, right, up, down) through a virtual input device.
@@ -60,8 +59,3 @@ The thresholds (`SWIPE_THRESHOLD_X`, `SWIPE_THRESHOLD_Y`), dead zone (`DEAD_ZONE
 2. Run the script with root privileges:
    ```bash
    sudo python3 triadswipe.py
-Limitations
-
-    Requires root privileges to access /dev/input.
-    Works only on systems with evdev support (Linux).
-    Thresholds may need fine-tuning for specific touchpads.
